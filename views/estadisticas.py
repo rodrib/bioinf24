@@ -39,22 +39,18 @@ with st.expander("Enfermedad"):
     st.image("enfermedad.jpeg", caption="La mayor parte son canceres")
 
 with st.expander("Confirmado"):
-    
     st.image("confirmado.jpeg", caption="La mayor parte son NO confirmados")
 
 
 with st.expander("Importe vs Lab vs Confirmado"):
-    
     st.image("importe-lab-conf.jpeg", caption="La mayor parte son NO confirmados de Manlab")
 
 
 with st.expander("Dias de Procesamiento"):
-    
     st.image("diasprocesamiento.jpeg", caption="Generalemente tarda 100 dias")
 
 
 with st.expander("Medicos vs Confirmacion"):
-    
     st.image("confirmado-medico.jpeg", caption="La mayoria de los estudios de Espindola son no confirmatorios")
 
 
