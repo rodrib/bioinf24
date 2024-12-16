@@ -39,7 +39,7 @@ with st.expander("Enfermedad"):
     st.image("enfermedad.jpeg", caption="La mayor parte son canceres")
 
 with st.expander("Confirmado"):
-    st.image("confirmado.jpeg", caption="La mayor parte son NO confirmados")
+    st.image("Confirmado.jpeg", caption="La mayor parte son NO confirmados")
 
 
 with st.expander("Importe vs Lab vs Confirmado"):
