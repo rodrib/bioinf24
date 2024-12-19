@@ -18,3 +18,6 @@ with st.expander("Extracthor"):
     st.image("extractor.jpeg", caption="Para extraer datos de informes de NGS")
 
 
+with st.expander("Variantpy"):
+    
+    st.image("extractor.jpeg", caption="Para dibujar multiples genes")
