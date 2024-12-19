@@ -16,3 +16,5 @@ st.header("📝 Programas")
 with st.expander("Extracthor"):
     
     st.image("extractor.jpeg", caption="Para extraer datos de informes de NGS")
+
+
