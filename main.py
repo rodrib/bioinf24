@@ -28,6 +28,12 @@ project_4_page = st.Page(
     icon=":material/bar_chart:",
 )
 
+project_5_page = st.Page(
+    "views/citogenetica.py",
+    title="Citogenetica Dinamica",
+    icon=":material/bar_chart:",
+)
+
 # --- NAVIGATION SETUP [WITHOUT SECTIONS] ---
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
 
@@ -36,6 +42,7 @@ pg = st.navigation(
     {
         "Info": [about_page],
         "Projectos": [ project_2_page, project_4_page,project_3_page],
+        "Citogenetica": [project_5_page]
     }
 )
 
