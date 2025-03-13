@@ -22,7 +22,7 @@ try:
     # -----------------------------------------------
     st.subheader("📊 Estadísticas por Procedencia")
 
-    
+
     query_procedencia = """
         SELECT 
             Procedencia,
@@ -43,7 +43,7 @@ try:
     user_query = st.text_area(
         "Escribe tu consulta SQL aquí (usa 'tabla_citogenetica' como nombre de tabla):",
         height=150,
-        placeholder="Ejemplo: SELECT * FROM tabla_citogenetica WHERE Procedencia = 'Hospital General'"
+        placeholder="Ejemplo: SELECT * FROM tabla_citogenetica WHERE Procedencia = 'HEA'"
     )
     
     # Botón para ejecutar (también en mismo nivel)
